@@ -4,7 +4,7 @@
 * @package phpBB Extension - Cookie Settings
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
-* Brazilian Portuguese translation by eunaumtenhoid (c) 2017 [ver 1.0.0] (https://github.com/phpBBTraducoes)
+* Brazilian Portuguese translation by eunaumtenhoid (c) 2017 ver 1.0.0 https://github.com/phpBBTraducoes
 */
 
 /**
