@@ -1,0 +1,10 @@
+services:
+    dmzx.cookiesettings.listener:
+        class: dmzx\cookiesettings\event\listener
+        arguments:
+            - '@config'
+            - '@template'
+            - '@config_text'
+            - '@language'
+        tags:
+            - { name: event.listener }

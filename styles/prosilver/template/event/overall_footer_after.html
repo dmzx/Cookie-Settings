@@ -1,0 +1,23 @@
+<!-- IF S_COOKIE_EXT_NOTICE -->
+<script src="{T_ASSETS_PATH}/cookieconsent/cookieconsent.min.js?assets_version={T_ASSETS_VERSION}"></script>
+<script>
+	window.addEventListener("load", function(){
+		window.cookieconsent.initialise({
+			"palette": {
+				"popup": {
+					"background": "#{COOKIE_PALETTE_BACKGROUND}"
+				},
+				"button": {
+					"background": "#{COOKIE_BUTTON_BACKGROUND}"
+				}
+			},
+			"theme": "classic",
+			"content": {
+				"message": "{COOKIE_MESSAGE}",
+				"dismiss": "{COOKIE_DISMISS}",
+				"link": "<!-- IF S_COOKIE_USE_LINK -->{COOKIE_CONSENT_INFO}<!-- ENDIF -->",
+				"href": "{COOKIE_CONSENT_HREF}"
+			}
+		})});
+</script>
+<!-- ENDIF -->
